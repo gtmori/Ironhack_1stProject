@@ -1,0 +1,242 @@
+/* color 1: #94FFCD
+color 2: #708079
+color 3: #DBB0FF
+color 4: #5D3280 */
+
+@font-face {
+  font-family: '8bit';
+  src: url(/fonts/pressstart2p-webfont.woff);
+}
+
+body{
+  font-family: '8bit';
+  
+}
+
+.backgroundSpace {
+  background-image: url(./images/13090708505_18a462d62f_k.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.startSpace {
+  height: 100em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.gameSpace {
+  background-color:rgb(156, 152, 152, 0.8);   
+  position: relative;
+  width: 95em;
+  height: 80%;
+  margin:   auto;
+  padding: 5%;
+}
+
+.h1Title {  
+  font-size: 70px;
+  color: rgb(148, 253, 204);
+  text-align: center;
+  height: 20%;
+}
+.imgLogo {
+  height: 100%;  
+}
+
+.startGame {
+  font-family: '8bit';
+  background-color: rgb(148, 253, 204);
+  border: 1px solid rgb(148, 253, 204);
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+
+.titleBegin {
+  color: #5D3280;
+}
+
+.inputName {
+  font-family: '8bit';
+  position: relative;
+  height: 5%;
+  width: 50%;
+  color: #708079;
+  background-color: #DBB0FF;  
+}
+
+.marginBottom {
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.marginLRAuto {
+  margin: 0 auto;
+}
+
+.textCenter {
+  margin: 0 auto;
+  display: flex;
+  width: 30%;
+  justify-content: center;
+}
+
+.nextButColor {
+  background-color: #5D3280;
+  border: 1px solid #5D3280;
+  color: white;
+  margin-top: 300px;
+}
+
+.divTeams {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.logo {
+   width: 80px;
+ }
+
+.buttonTeam {
+  font-family: '8bit';
+  border-radius: 10px;
+  font-size: 10px;
+  padding: 20px 30px;
+ }
+
+.palColor {
+  color: white;
+  background-color: rgb(29, 91, 60);
+  border: 1px solid rgb(29, 91, 60);
+}
+
+.corColor {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.spColor {
+  color: black;
+  background-color: red;
+  border: 1px solid red;
+}
+
+.sanColor {
+  color: black;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.buttonActiveCor {
+  border: 3px solid black;
+}
+
+.buttonActivePal {
+  border: 3px solid rgb(29, 91, 60);
+}
+
+.buttonActiveSP {
+  border: 3px solid red;
+}
+
+.buttonActiveSan {
+  border: 3px solid white;
+}
+
+.divTeamInfo {
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.h1Team {
+  font-size: 30px;
+  text-align: left;
+  margin:5px 0;
+}
+
+.h2Team {
+  font-size: 15px;
+  text-align: left;
+  margin:5px 0;
+}
+
+.playersList {
+  list-style: none;
+}
+
+.divMiddle {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.divMiddleRight {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.divPlayersInfo {
+  width: 48%;
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+}
+
+.liTitle {
+  margin-bottom: 10px;
+}
+
+.liList{
+  padding: 5px;
+}
+.divListInfo{ 
+  width: 50%;
+}
+.divListInfoPosHab {
+  width: 25%;
+}
+
+.h2NextOp {
+  font-size: 10px;
+  width: 100%
+}
+
+.formationButton {
+  font-family: '8bit';
+  border-radius: 10px;
+  font-size: 10px;
+  padding: 10px;
+}
+
+.divFormation {
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
+  margin-bottom: 20px;
+}
+
+.buttonActiveForm{
+  color: white;
+  background-color: #5D3280;
+  border: 1px solid #5D3280;
+}
